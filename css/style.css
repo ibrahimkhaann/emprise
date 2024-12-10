@@ -68,10 +68,36 @@
  .nav-link:hover {
      color: #28B0A6;
  }
+ /* back to top btn */
+ .back-to-top i{
+    font-size: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: red;
+ }
+ /* back to top btn */
+
+ .stikyHeader {
+     background: #F6D6D6;
+     animation: ibrahim 1s;
+     z-index: 1111;
+ }
+
+ @keyframes ibrahim {
+     from {
+         top: -500px;
+     }
+
+     to {
+         top: 0;
+     }
+ }
 
  .navbar {
      padding-top: 20px;
-     padding-bottom: 45px;
+     position: fixed;
+     width: 100%;
  }
 
  .navbar-brand {
@@ -96,6 +122,10 @@
      background-size: cover;
      background-position: center;
      border-radius: 30px;
+ }
+
+ #bodyimagePart {
+     padding-top: 130px;
  }
 
  .bodyoverly {
@@ -297,6 +327,9 @@
 
 
  /* category part start */
+ #categoryPart {
+     padding: 0;
+ }
 
  .categoryItem {
      padding-top: 220px;
@@ -392,8 +425,8 @@
 
  /* trending part start */
 
- .trendingpart {
-     padding: 15px;
+ #trendingPart {
+     padding: 0;
  }
 
  .trendingItem {
@@ -1375,75 +1408,81 @@
      font-weight: 500;
      padding-top: 20px;
  }
- .dot2nd{
-    position: absolute;
-    padding-left: 294px;
-    top:200px;
-    z-index: -1;
+
+ .dot2nd {
+     position: absolute;
+     padding-left: 294px;
+     top: 200px;
+     z-index: -1;
  }
 
  /* support part end */
 
-/* .about part start  */
-#aboutPart{
-    padding-bottom: 300px;
-}
-.aboutflex1st{
-    display: flex;
-}
-.aboutflex1{
-    display: flex;
-}
-.aboutflex1 i{
-    padding: 10px;
-    border: 3px solid #1D293F;
-    border-radius: 50%;
-    color: #1D293F;
-    font-size: 15px;
-}
-.aboutflex3 h4{
-    color: #1D293F;
-    font-size: 24px;
-    font-weight: 600;
-    padding-top: 12px;
-    padding-left: 20px;
-}
+ /* .about part start  */
+ #aboutPart {
+     padding-bottom: 300px;
+ }
 
-.aboutflex4 h3{
-    color: #546179;
-    font-size: 24px;
-    font-weight: 400;
-    padding-top: 12px;
-    padding-left: 60px;
-}
-.aboutflex5{
-    display: flex;
-    padding-top: 18px;
-}
-.aboutflex6 p{
-    color: #212529;
-    font-size: 24px;
-    font-weight: 400;
-    padding-left: 20px;
-}
-.aboutflex7 h3{
-    color: #212529;
-    font-size: 24px;
-    font-weight: 400;
-    padding-left: 15px;
-}
-.dag1{
-   margin-top: 40px;
-   height: 2px;
-   width: 100%;
-   background-color: #E9ECEF;
-}
+ .aboutflex1st {
+     display: flex;
+ }
+
+ .aboutflex1 {
+     display: flex;
+ }
+
+ .aboutflex1 i {
+     padding: 10px;
+     border: 3px solid #1D293F;
+     border-radius: 50%;
+     color: #1D293F;
+     font-size: 15px;
+ }
+
+ .aboutflex3 h4 {
+     color: #1D293F;
+     font-size: 24px;
+     font-weight: 600;
+     padding-top: 12px;
+     padding-left: 20px;
+ }
+
+ .aboutflex4 h3 {
+     color: #546179;
+     font-size: 24px;
+     font-weight: 400;
+     padding-top: 12px;
+     padding-left: 60px;
+ }
+
+ .aboutflex5 {
+     display: flex;
+     padding-top: 18px;
+ }
+
+ .aboutflex6 p {
+     color: #212529;
+     font-size: 24px;
+     font-weight: 400;
+     padding-left: 20px;
+ }
+
+ .aboutflex7 h3 {
+     color: #212529;
+     font-size: 24px;
+     font-weight: 400;
+     padding-left: 15px;
+ }
+
+ .dag1 {
+     margin-top: 40px;
+     height: 2px;
+     width: 100%;
+     background-color: #E9ECEF;
+ }
 
 
 
 
 
-/* .about part end  */
-
-
-
+ /* .about part end  */
